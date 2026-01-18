@@ -1,0 +1,17 @@
+{
+    "name": "usualtool/ut-btpanel",
+    "description": "UT framework extension:KouZi",
+    "keywords": ["ut-btpanel", "usualtool", "UT Framework"],
+    "homepage": "https://github.com/usualtool",
+    "license": "Apache-2.0",
+    "authors": [{
+        "name": "Huang Hui",
+        "email": "usualtool@qq.com"
+    }],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "usualtool\\BtPanel\\": "src"
+        }
+    }
+}
