@@ -6,7 +6,7 @@ class BtPanel{
     /**
      * 构造函数
      */
-    public function __construct($panelurl='',$panelkey='http://127.0.0.1:8888'){
+    public function __construct($panelurl='',$panelkey=''){
 	    if(empty($panelurl) || empty($panelkey)):
             include 'Config.php';
             $this->panelurl=$config['panelurl'];
